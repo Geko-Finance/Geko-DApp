@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Ensure Tailwind v4 scans all source files for class detection */
+@source "../**/*.{ts,tsx}";
+
+@custom-variant dark (&:is(.dark *));
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #121212;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@theme inline {
+  --color-geko-navy: #081f5c;
+  --color-geko-blue: #7096d1;
+  --color-geko-accent: #294cab;
+  --color-geko-border: #334eac;
+  --color-geko-teal: #39bfb7;
+  --color-geko-teal-light: #68f9f2;
+  --color-geko-muted: #bad6eb;
+  --color-geko-navy-hover: #12328a;
+  --color-geko-cream: #fff9f0;
+  --color-geko-gray: #f3f4f6;
+  --color-geko-dark: #121212;
+}
