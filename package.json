@@ -6,9 +6,9 @@
   "private": true,
   "packageManager": "npm@10.2.3",
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "start": "turbo run start",
+    "dev": "node init && turbo run dev",
+    "build": "node init && turbo run build",
+    "start": "node init && turbo run start",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md,yml,yaml}\"",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,scss,md,yml,yaml}\"",
