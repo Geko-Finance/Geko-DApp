@@ -1,6 +1,6 @@
 # Geko DApp
 
-Monorepo for Geko Protocol DApp, built with [Turborepo](https://turbo.build/).
+Monorepo for Geko DApp, built with [Turborepo](https://turbo.build/).
 
 ## Structure
 
