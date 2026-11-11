@@ -1,6 +1,6 @@
 # Geko DApp
 
-Monorepo for Geko Dapp, built with [Turborepo](https://turbo.build/).
+Monorepo for Geko Application, built with [Turborepo](https://turbo.build/).
 
 ## Structure
 
