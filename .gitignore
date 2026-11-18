@@ -35,9 +35,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env
 .env*.local
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -53,7 +51,6 @@ yarn-error.log*
 
 # IDEs and editors
 .idea
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -65,3 +62,4 @@ yarn-error.log*
 # Rust/Stellar contracts
 **/test_snapshots/
 target/
+config.bat
